@@ -2,9 +2,15 @@ $(window).bind('scroll', function() {
   var navHeight = $(window).height() - 500;
   if ($(window).scrollTop() > navHeight) {
     $('.nav-holder-total').addClass('fixed');
+    $('.nav-holder').css("background-color", "#262626");
   } else {
     $('.nav-holder-total').removeClass('fixed');
+    $('.nav-holder').css("background-color", "transparent");
   }
+});
+
+$(".nav-toggle").click(function() {
+  $(".nav-holder").toggleClass("active-nav");
 });
 // foodFilter("all");
 // function foodFilter(c) {

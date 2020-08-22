@@ -1,0 +1,91 @@
+.landing-text {
+  padding: 50% 0% 30% 0%;
+}
+.logo-holder h3 {
+  font-size: 40px;
+}
+.nav-holder {
+  position: absolute;
+  top: -200px;
+  left: 0;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all 0.5s ease-in;
+}
+.nav-holder a {
+  padding: 2% 0%;
+  width: 100%;
+}
+.nav-toggle {
+  display: block;
+}
+
+.about-holder {
+  flex-direction: column;
+}
+.about-pic {
+  width: 100%;
+}
+.about-pic img {
+  width: 100%;
+  height: auto;
+}
+.about-text {
+  width: 100%;
+}
+.about-text h2 {
+  font-size: 30px;
+}
+.about-text p {
+  margin: 5% 0%;
+  color: #999;
+}
+.pre-holder > .dark-overlay {
+  padding: 15% 0%;
+}
+.pre-holder > .dark-overlay hr {
+  width: 11%;
+}
+
+.menu-total-holder {
+  flex-direction: column;
+  width: 100%;
+}
+.menu-holder {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.galery-total-holder {
+  flex-direction: column;
+}
+.galery-item {
+  width: 100%;
+  margin: 0% 0% 5% 0%;
+}
+
+.team-members{
+  flex-direction: column;
+  width: 100%;
+}
+.team-member {
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+.reservation {
+  padding: 15% 0%;
+}
+
+.working-holder {
+  flex-direction: column;
+}
+.working-info {
+  width: 100%;
+  margin-bottom: 5%;
+}
+.working-info p {
+  color: rgba(255, 255, 255, 0.8);
+}
