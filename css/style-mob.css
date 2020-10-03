@@ -1,5 +1,15 @@
 .landing-text {
-  padding: 50% 0% 30% 0%;
+  padding: 55% 0% 45% 0%;
+}
+.landing-text h1 {
+  font-size: 90px;
+}
+.landing-text h3 {
+  font-size: 22px;
+}
+.landing-text a {
+  padding: 2% 4%;
+  font-size: 14px;
 }
 .logo-holder h3 {
   font-size: 40px;

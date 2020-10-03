@@ -11,9 +11,9 @@ html {
   font-weight: bold;
 }
 .active-nav {
-  top: 55px !important;
+  top: 62px !important;
   left: 0px !important;
-  transition: all 0.5s ease-in;
+  transition: all 0.3s ease-in;
 }
 .active-nav a:first-child {
   border-top: 1px solid white;
@@ -112,6 +112,7 @@ p,h1,h2,h3,h4,h5,h6 {
   width: 40%;
   display: flex;
   justify-content: space-between;
+  transition: all 300ms ease-in;
   margin-right: 5%;
 }
 .nav-holder a {
